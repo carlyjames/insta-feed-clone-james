@@ -9,7 +9,13 @@ export const Posts = [
         commentCount: 56,
         image: '/post-1.jpg',
         verified: true,
-        following: false
+        following: false,
+        comments: [
+            { username: 'beachLover22', text: 'This sunset is absolutely breathtaking! 😍' },
+            { username: 'wanderlust_jane', text: 'Living for these vibes! ✨' },
+            { username: 'photo_master', text: 'Perfect composition!' },
+            { username: 'sunset_chaser', text: 'Where was this taken? 😮' }
+        ]
     },
     {
         id: 2,
@@ -21,8 +27,13 @@ export const Posts = [
         commentCount: 34,
         image: '/post-2.jpg',
         verified: false,
-        following: false
-
+        following: false,
+        comments: [
+            { username: 'gym_rat_101', text: 'Beast mode activated! 💪' },
+            { username: 'fitness_freak', text: 'Keep crushing it!' },
+            { username: 'healthy_habits', text: 'Morning workouts are the best 🌅' },
+            { username: 'muscle_mary', text: 'What\s your routine?' }
+        ]
     },
     {
         id: 3,
@@ -34,7 +45,13 @@ export const Posts = [
         commentCount: 120,
         image: '/post-3.jpg',
         verified: false,
-        following: true
+        following: true,
+        comments: [
+            { username: 'travel_junkie', text: 'Santorini is magical! 🇬🇷' },
+            { username: 'island_hopper', text: 'Adding this to my bucket list!' },
+            { username: 'greek_lover', text: 'Which hotel did you stay at?' },
+            { username: 'vacation_vibes', text: 'Those views are incredible 😍' }
+        ]
     },
     {
         id: 4,
@@ -46,9 +63,13 @@ export const Posts = [
         commentCount: 18,
         image: '/post-4.jpg',
         verified: false,
-        following: true
-
-
+        following: true,
+        comments: [
+            { username: 'tech_nerd', text: 'Can\'t wait for the review! 🔥' },
+            { username: 'gadget_geek', text: 'Is it worth the hype?' },
+            { username: 'apple_fan', text: 'Drop that review asap!' },
+            { username: 'tech_savvy', text: 'How\'s the battery life? 🔋' }
+        ]
     },
     {
         id: 5,
@@ -60,9 +81,13 @@ export const Posts = [
         commentCount: 212,
         image: '/post-5.jpg',
         verified: false,
-        following: true
-
-
+        following: true,
+        comments: [
+            { username: 'pasta_lover', text: 'Nothing beats homemade! 🍝' },
+            { username: 'foodie_forever', text: 'Recipe please! 🙏' },
+            { username: 'chef_mike', text: 'Looks absolutely delicious!' },
+            { username: 'italian_mama', text: 'Just like my nonna makes it 👌' }
+        ]
     },
     {
         id: 6,
@@ -74,8 +99,12 @@ export const Posts = [
         commentCount: 98,
         image: '/post-6.jpg',
         verified: true,
-        following: true
-
-
+        following: true,
+        comments: [
+            { username: 'photo_enthusiast', text: 'Amazing composition! 📸' },
+            { username: 'street_stories', text: 'What camera do you use?' },
+            { username: 'urban_shooter', text: 'The lighting is perfect!' },
+            { username: 'city_explorer', text: 'Love the urban vibes 🏙️' }
+        ]
     }
 ];

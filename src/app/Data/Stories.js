@@ -20,5 +20,25 @@ export const Story = [
         name: 'FoodieVibesOnly',
         image: '/story-4.jpg', 
     },
+    {
+        id: 5,
+        name: 'FoodieVibesOnly',
+        image: '/story-4.jpg', 
+    },
+    {
+        id: 6,
+        name: 'FoodieVibesOnly',
+        image: '/story-4.jpg', 
+    },
+    {
+        id: 7,
+        name: 'FoodieVibesOnly',
+        image: '/story-4.jpg', 
+    },
+    {
+        id: 8,
+        name: 'FoodieVibesOnly',
+        image: '/story-4.jpg', 
+    },
 
 ]
